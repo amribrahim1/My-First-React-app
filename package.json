@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
     "joi": "^17.2.1",
     "joi-browser": "^13.4.0",
     "query-string": "^6.13.1",
