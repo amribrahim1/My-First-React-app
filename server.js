@@ -1,13 +1,9 @@
-const express = require("express");
-// eslint-disable-next-line no-unused-vars
-// const bodyParser = require('body-parser');
-const path = require("path");
+const path = require('path');
+const express = require('express');
 const app = express();
-const port = process.env.PORT || 8080;
-
-app.use(express.static(path.join(__dirname, "build")));
-
-// This route serves the React app
-app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, "build", "public/index.html")));
-
-app.listen(port, () => console.log(`Server listening on port ${port}`))
+const port = process.env.PORT || 3000;
+const publicPath = path.join(__dirname, '..', 'public');
+app.use(express.static(publicPath));
+app.listen(port, () => {
+   console.log(`Server is up on port ${port}!`);
+});
