@@ -1,6 +1,10 @@
 My First React js app (simple (test) shopping app)
 
-It's a practice from MOOCA (مهارة-تك) React js course: https://maharatech.gov.eg/enrol/index.php?id=790
+https://my-first-react-app-shopping.herokuapp.com/
+
+It's a practice from MOOCA (مهارة-تك) React js course:
+
+https://maharatech.gov.eg/enrol/index.php?id=790
 
 The app is a simple (test) shopping one-page website created with React js.
 
