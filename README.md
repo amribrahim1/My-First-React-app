@@ -6,6 +6,9 @@ It's a practice from MOOCA (مهارة-تك) React js course:
 
 https://maharatech.gov.eg/enrol/index.php?id=790
 
+My certificate: (Credential ID: zStVIKXSll )
+https://maharatech.gov.eg/verify/
+
 The app is a simple (test) shopping one-page website created with React js.
 
 It's connected with test back-end products list created with JSON-server.
